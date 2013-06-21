@@ -10,7 +10,7 @@ public class Houses
   public static void main(String[] args)
   {
     Tortoise.setSpeed(9);
-    Tortoise.setX(200);
+    Tortoise.setX(100);
     int height1 = MessageBox.askForNumericalInput("How tall would you like your house?");
     drawHouse(height1);
     int height2 = MessageBox.askForNumericalInput("How tall would you like your house?");
