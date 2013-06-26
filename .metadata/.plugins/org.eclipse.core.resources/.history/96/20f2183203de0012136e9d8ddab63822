@@ -3,9 +3,11 @@ package org.teachingkidsprogramming.recipes;
 import org.teachingextensions.logo.ColorWheel;
 import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.windows.MessageBox;
 
 public class PentagonCrazy
 {
+  static int side = MessageBox.askForNumericalInput("How long do you want the side?");
   public static void main(String[] args)
   {
     Tortoise.setSpeed(10);
@@ -16,8 +18,7 @@ public class PentagonCrazy
   {
     for (int i = 1; i <= 200; i++)
     {
-      int side = i;
-      adjustPen(side);
+      adjustPen(i);
       Tortoise.move(side);
       Tortoise.turn(360 / 5);
       Tortoise.turn(1);

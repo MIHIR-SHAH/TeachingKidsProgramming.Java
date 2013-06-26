@@ -26,6 +26,7 @@ public class KnottedRing
     //                    Move the tortoise 110 pixels --#1
     Tortoise.move(110);
     //                    Turn the tortoise 1/8th of 360 degrees to the right --#2
+    
     //              Repeat 
     //              ------------- End of drawOctagonWithOverlap recipe --#7
     //       Turn the tortoise 1/30th of 360 degrees to the right --#9

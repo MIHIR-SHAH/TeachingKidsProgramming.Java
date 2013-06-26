@@ -3,9 +3,11 @@ package org.teachingkidsprogramming.recipes;
 import org.teachingextensions.logo.ColorWheel;
 import org.teachingextensions.logo.Colors;
 import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.windows.MessageBox;
 
 public class PentagonCrazy
 {
+
   public static void main(String[] args)
   {
     Tortoise.setSpeed(10);

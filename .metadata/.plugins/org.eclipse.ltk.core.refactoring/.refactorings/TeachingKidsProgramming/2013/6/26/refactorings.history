@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract local variable &apos;side&apos; from expression &apos;i&apos;&#x0D;&#x0A;- Original project: &apos;TeachingKidsProgramming&apos;&#x0D;&#x0A;- Variable name: &apos;side&apos;&#x0D;&#x0A;- Destination method: &apos;org.teachingkidsprogramming.recipes.PentagonCrazy.drawPentagon()&apos;&#x0D;&#x0A;- Variable expression: &apos;i&apos;&#x0D;&#x0A;- Replace occurrences of expression with variable" description="Extract local variable &apos;side&apos;" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src&lt;org.teachingkidsprogramming.recipes{PentagonCrazy.java" name="side" replace="true" selection="526 1" stamp="1372211842111" version="1.0"/>
+</session>
