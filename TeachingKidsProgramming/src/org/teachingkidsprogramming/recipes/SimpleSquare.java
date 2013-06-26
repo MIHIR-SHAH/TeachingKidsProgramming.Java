@@ -3,6 +3,7 @@ package org.teachingkidsprogramming.recipes;
 import java.awt.Color;
 
 import org.teachingextensions.logo.Tortoise;
+import org.teachingextensions.windows.MessageBox;
 
 public class SimpleSquare
 {
@@ -10,9 +11,10 @@ public class SimpleSquare
   {
     Tortoise.show();
     Tortoise.setSpeed(10);
-    int side = 4;
+    int side = MessageBox.askForNumericalInput("How large do you want?");
     for (int i = 1; i <= side; i++)
     {
+      Tortoise.setPenWidth(side);
       Tortoise.setPenColor(Color.blue);
       Tortoise.move(50);
       Tortoise.turn(360.0 / side);

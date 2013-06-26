@@ -13,33 +13,24 @@
 	</section>
 	<section name="completion_proposal_size">
 	</section>
-	<section name="ExtractMethodWizard">
-		<item value="false" key="ThrowRuntimeExceptions"/>
-		<item value="false" key="GenerateJavadoc"/>
-		<item value="1" key="AccessModifier"/>
-	</section>
 	<section name="JavaElementSearchActions">
 	</section>
 	<section name="BuildPathsPropertyPage">
 		<item value="2" key="pageIndex"/>
 	</section>
-	<section name="RefactoringWizard.preview">
-		<item value="400" key="height"/>
-		<item value="600" key="width"/>
-	</section>
 	<section name="quick_assist_proposal_size">
-	</section>
-	<section name="org.eclipse.jdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
-		<item value="597" key="DIALOG_WIDTH"/>
-		<item value="93" key="DIALOG_Y_ORIGIN"/>
-		<item value="261" key="DIALOG_HEIGHT"/>
-		<item value="53" key="DIALOG_X_ORIGIN"/>
-		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="JavaBuildConfigurationBlock">
 		<item value="false" key="expanded2"/>
 		<item value="false" key="expanded1"/>
 		<item value="true" key="expanded0"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.preferences.EditTemplateDialog_dialogBounds">
+		<item value="597" key="DIALOG_WIDTH"/>
+		<item value="93" key="DIALOG_Y_ORIGIN"/>
+		<item value="53" key="DIALOG_X_ORIGIN"/>
+		<item value="261" key="DIALOG_HEIGHT"/>
+		<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
 		<item value="true" key="ShowStatusLine"/>
@@ -48,8 +39,8 @@
 		<section name="DialogBoundsSettings">
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="138" key="DIALOG_Y_ORIGIN"/>
-			<item value="540" key="DIALOG_X_ORIGIN"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="540" key="DIALOG_X_ORIGIN"/>
 			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
 		</section>
 	</section>
