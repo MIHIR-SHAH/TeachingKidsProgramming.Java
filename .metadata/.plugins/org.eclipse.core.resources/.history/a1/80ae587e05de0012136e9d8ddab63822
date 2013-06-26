@@ -16,7 +16,7 @@ public class KnottedRing
       drawOctagonWithOverlap();
       Tortoise.turn(360 / 30);
       //       Turn the tortoise 5 more degrees to the right --#11
-      Tortoise.turn(5);
+      Tortoise.turn(i+5);
     }
   }
   public static void drawOctagonWithOverlap()

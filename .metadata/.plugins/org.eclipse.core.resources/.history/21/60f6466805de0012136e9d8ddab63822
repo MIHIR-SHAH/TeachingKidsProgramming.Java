@@ -12,11 +12,11 @@ public class KnottedRing
     createColorPalette();
     for (int i = 1; i <= 30; i++)
     {
-      Tortoise.setPenColor(ColorWheel.getRandomColorFromWheel());
-      drawOctagonWithOverlap();
-      Tortoise.turn(360 / 30);
-      //       Turn the tortoise 5 more degrees to the right --#11
-      Tortoise.turn(5);
+    Tortoise.setPenColor(ColorWheel.getRandomColorFromWheel());
+    drawOctagonWithOverlap();
+    Tortoise.turn(360 / 30);
+    //       Turn the tortoise 5 more degrees to the right --#11
+    Tortoise.turn(5);
     }
   }
   public static void drawOctagonWithOverlap()

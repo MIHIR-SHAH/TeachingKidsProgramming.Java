@@ -1,1 +1,3 @@
 1372211842111	Extract local variable 'side'
+1372212180798	Extract method 'createColorPalette'
+1372212241872	Extract method 'drawOctagonWithOverlap'
