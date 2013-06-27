@@ -1,16 +1,14 @@
 package org.teachingkidsprogramming.recipes;
 
+import static org.junit.Assert.assertEquals;
 
-public class SimpleSquare
+import org.teachingextensions.windows.MessageBox;
+
+public class FizzBuzzTest
 {
-  public static void main(String[] args) throws Exception
+  public void test1Produces1()
   {
-    //  Show the tortoise --#1
-    //  Make the tortoise move as fast as possible --#6
-    //  Do the following 4 times --#5.1
-    //      Change the color of the line the tortoise draws to "blue" --#4
-    //      Move the tortoise 50 pixels --#2
-    //      Turn the tortoise to the right (90 degrees) --#3
-    //  Repeat --#5.2
+   MessageBox. assertEquals("1",
+        FizzBuzz.convert(MessageBox.askForNumericalInput("Please enter a positive numerical answer.")));)
   }
 }
